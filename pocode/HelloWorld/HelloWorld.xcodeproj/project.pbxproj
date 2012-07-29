@@ -1,0 +1,226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6DE4DD114D607A000129C16 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D6DE4DD014D607A000129C16 /* Debug.xcconfig */; };
+		D6DE4DD314D607A000129C16 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D6DE4DD214D607A000129C16 /* Release.xcconfig */; };
+		D6DE4DD614D607A000129C16 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6DE4DD514D607A000129C16 /* AppDelegate.mm */; };
+		D6DE4DD814D607A000129C16 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6DE4DD714D607A000129C16 /* en.strings */; };
+		D6DE4DDA14D607A000129C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE4DD914D607A000129C16 /* main.m */; };
+		D6DE4DDC14D607A000129C16 /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = D6DE4DDB14D607A000129C16 /* main.pch */; };
+		D6DE4DDF14D607A000129C16 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DE4DDE14D607A000129C16 /* main.xib */; };
+		D6DE4DE214D607A000129C16 /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D6DE4DE114D607A000129C16 /* poOpenGLView.mm */; };
+		D6DE4DE614D607A000129C16 /* HelloWorldApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DE4DE514D607A000129C16 /* HelloWorldApp.cpp */; };
+		D6DE4DE814D607A000129C16 /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DE4DE714D607A000129C16 /* AppConfig.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6DE4DCB14D607A000129C16 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DE4DD014D607A000129C16 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		D6DE4DD214D607A000129C16 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		D6DE4DD414D607A000129C16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		D6DE4DD514D607A000129C16 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		D6DE4DD714D607A000129C16 /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		D6DE4DD914D607A000129C16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		D6DE4DDB14D607A000129C16 /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		D6DE4DDD14D607A000129C16 /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		D6DE4DDE14D607A000129C16 /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		D6DE4DE014D607A000129C16 /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		D6DE4DE114D607A000129C16 /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		D6DE4DE414D607A000129C16 /* HelloWorldApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldApp.h; sourceTree = "<group>"; };
+		D6DE4DE514D607A000129C16 /* HelloWorldApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldApp.cpp; sourceTree = "<group>"; };
+		D6DE4DE714D607A000129C16 /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6DE4DC814D607A000129C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6DE4DC014D607A000129C16 = {
+			isa = PBXGroup;
+			children = (
+				D6DE4DCE14D607A000129C16 /* HelloWorld */,
+				D6DE4DCC14D607A000129C16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6DE4DCC14D607A000129C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE4DCB14D607A000129C16 /* HelloWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6DE4DCE14D607A000129C16 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE4DCF14D607A000129C16 /* platform */,
+				D6DE4DE314D607A000129C16 /* application */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		D6DE4DCF14D607A000129C16 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE4DD014D607A000129C16 /* Debug.xcconfig */,
+				D6DE4DD214D607A000129C16 /* Release.xcconfig */,
+				D6DE4DD414D607A000129C16 /* AppDelegate.h */,
+				D6DE4DD514D607A000129C16 /* AppDelegate.mm */,
+				D6DE4DD714D607A000129C16 /* en.strings */,
+				D6DE4DD914D607A000129C16 /* main.m */,
+				D6DE4DDB14D607A000129C16 /* main.pch */,
+				D6DE4DDD14D607A000129C16 /* main.plist */,
+				D6DE4DDE14D607A000129C16 /* main.xib */,
+				D6DE4DE014D607A000129C16 /* poOpenGLView.h */,
+				D6DE4DE114D607A000129C16 /* poOpenGLView.mm */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		D6DE4DE314D607A000129C16 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				D6DE4DE414D607A000129C16 /* HelloWorldApp.h */,
+				D6DE4DE514D607A000129C16 /* HelloWorldApp.cpp */,
+				D6DE4DE714D607A000129C16 /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6DE4DCA14D607A000129C16 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6DE4DEB14D607A000129C16 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				D6DE4DC714D607A000129C16 /* Sources */,
+				D6DE4DC814D607A000129C16 /* Frameworks */,
+				D6DE4DC914D607A000129C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = D6DE4DCB14D607A000129C16 /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6DE4DC214D607A000129C16 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D6DE4DC514D607A000129C16 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6DE4DC014D607A000129C16;
+			productRefGroup = D6DE4DCC14D607A000129C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6DE4DCA14D607A000129C16 /* HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6DE4DC914D607A000129C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE4DD114D607A000129C16 /* Debug.xcconfig in Resources */,
+				D6DE4DD314D607A000129C16 /* Release.xcconfig in Resources */,
+				D6DE4DD814D607A000129C16 /* en.strings in Resources */,
+				D6DE4DDC14D607A000129C16 /* main.pch in Resources */,
+				D6DE4DDF14D607A000129C16 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6DE4DC714D607A000129C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DE4DD614D607A000129C16 /* AppDelegate.mm in Sources */,
+				D6DE4DDA14D607A000129C16 /* main.m in Sources */,
+				D6DE4DE214D607A000129C16 /* poOpenGLView.mm in Sources */,
+				D6DE4DE614D607A000129C16 /* HelloWorldApp.cpp in Sources */,
+				D6DE4DE814D607A000129C16 /* AppConfig.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6DE4DE914D607A000129C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DE4DD014D607A000129C16 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D6DE4DEA14D607A000129C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DE4DD214D607A000129C16 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		D6DE4DEC14D607A000129C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D6DE4DED14D607A000129C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6DE4DC514D607A000129C16 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DE4DE914D607A000129C16 /* Debug */,
+				D6DE4DEA14D607A000129C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6DE4DEB14D607A000129C16 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6DE4DEC14D607A000129C16 /* Debug */,
+				D6DE4DED14D607A000129C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6DE4DC214D607A000129C16 /* Project object */;
+}
