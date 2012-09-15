@@ -1,0 +1,48 @@
+[Sat, 15 Sep 2012 21:10:29 GMT] INFO Server starting with config: {
+  "environment": "development",
+  "workers": 1,
+  "port": 4000,
+  "debug": true,
+  "rotateWorkers": false,
+  "rotationWindow": 7200000,
+  "rotationTimeout": 300000,
+  "logDir": "/Users/sruml/Development/playground/todo_app/log",
+  "gracefulShutdownTimeout": 30000,
+  "heartbeatInterval": 5000,
+  "heartbeatWindow": 20000,
+  "staticFilePath": "/Users/sruml/Development/playground/todo_app/public",
+  "sessions": {
+    "store": "memory",
+    "key": "sid",
+    "expiry": 1209600
+  },
+  "cookieSessionKey": "sdata",
+  "metrics": null,
+  "i18n": {
+    "defaultLocale": "en-us",
+    "loadPaths": [
+      "/Users/sruml/Development/playground/todo_app/config/locales"
+    ]
+  },
+  "spdy": null,
+  "ssl": null,
+  "model": {
+    "useTimestamps": false,
+    "forceCamel": true
+  },
+  "hostname": null,
+  "db": {
+    "mongo": {
+      "db": "todos"
+    }
+  },
+  "detailedErrors": true
+}
+[Sat, 15 Sep 2012 21:10:29 GMT] INFO Creating 1 worker process.
+[Sat, 15 Sep 2012 21:10:29 GMT] INFO Server worker running in development on port 4000 with a PID of: 64201
+[Sat, 15 Sep 2012 21:10:29 GMT] DEBUG LOGGING STARTED ============================================
+[Sat, 15 Sep 2012 21:10:29 GMT] DEBUG ============================================================
+[Sat, 15 Sep 2012 21:11:09 GMT] INFO Creating 1 worker process.
+[Sat, 15 Sep 2012 21:11:09 GMT] INFO Server worker running in development on port 4000 with a PID of: 64204
+[Sat, 15 Sep 2012 21:11:09 GMT] DEBUG LOGGING STARTED ============================================
+[Sat, 15 Sep 2012 21:11:09 GMT] DEBUG ============================================================
