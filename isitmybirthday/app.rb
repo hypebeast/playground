@@ -11,5 +11,23 @@ class IsItMyBirthday < Sinatra::Base
     haml :index
   end
 
+  get '/countdown' do
+    day = params[:day].to_i
+    month = params[:month].to_i
+    birthday = BirthdayCountdown.new(month, day)
+    @timeleft = birthday.seconds_to_go.to_s
+
+    haml :countdown
+  end
+
+  get '/birthday' do
+    day = params[:day].to_i
+    month = params[:month].to_i
+    birthday = BirthdayCountdown.new(month, day)
+    @isItBirthday = birthday.to_view
+
+    haml :birthday
+  end
+
 end
 

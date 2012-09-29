@@ -3,16 +3,24 @@
   %head
     %title Is It My Birthday?
     %link(rel="stylesheet" href="css/bootstrap.css")
+    %link(rel="stylesheet" href="css/style.css")
   %body
-    .navbar.navbar-fixed-top
+    .navbar.navbar-inverse.navbar-fixed-top
       .navbar-inner
         .container
           %a(href='/' class='brand') IsItMyBirthday?
+          %form{:action => "/", :method => "post", :class => "navbar-form pull-right", :id => "birthday_form"}
+            %input(type='text' class='span2' placeholder="Day" name='day' id="day_input")
+            %input(type='text' class='span2' placeholder="Month" name='month' id="month_input")
+            %button(type='submit' class='btn') Go
 
-    .content
-      .container
-        .page-header
-          %h1 Hello, Bootstrap!
+    .container
+      %div#mainarea
+        %h2 Is it your birthday? Find it out!
+        %p Enter your birthday date and find it out!
+      - if not (@isItBirthday == "YES")
+        %div#countdown
 
     %script(type="text/javascript" src="js/jquery-1.8.1.min.js")
     %script(type="text/javascript" src="js/bootstrap.js")
+    %script(type="text/javascript" src="js/app.js")

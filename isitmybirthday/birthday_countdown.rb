@@ -15,13 +15,28 @@ class BirthdayCountdown
     @month == @birthday_month && @day == @birthday_day
   end
 
-  # Seconds until my birthday
-  def seconds_to_go
-    next_birthday.to_i - Time.now.to_i
+  def to_view
+    isIt? ? "YES" : "NO"
   end
 
-  def next_birthday
+  # Seconds until my birthday
+  def seconds_to_go
+    if not isIt?
+      next_birthday.to_i - Time.now.to_i
+    else
+      0
+    end
+  end
 
+  # Calculates the next birthday
+  def next_birthday
+    year = @year
+    if @birthday_month < @month or
+       (@birthday_month == @month and @birthday_day < @day)
+      year = @year + 1
+    end
+
+    Time.parse(DateTime.new(year, @birthday_month, @birthday_day).to_s)
   end
 
 end
